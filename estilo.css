@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0C0C16 ;
+} 
+.container{
+    width: 700px;
+    background-color: black;
+    border-radius: 35px;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+.botao{
+    background-color: #4905A3;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    border: solid #ffffff;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+}
+.botao:hover{
+    background-color: rgb(75, 6, 75);
+}
+.botao:active{
+    background-color: rgb(151, 10, 151);
+    border: none;
+}
+.input-anotar{
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.lista{
+    color: #ffffff;
+    width: 100%;
+    list-style: none;
+}
+.listas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #0C0C16;
+    cursor: pointer;
+    /*box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);*/
+}
+img{
+    width: 35px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.listas:hover img{
+    opacity: 1;
+}
+.lixeira{
+    background-color: #4905A3;
+}
+p{
+    text-transform: capitalize;
+}
+
+.MudarCor{
+    background-color: #4905A3;
+    text-decoration: line-through;
+}
+p{
+    font-size: 20pt;
+}
